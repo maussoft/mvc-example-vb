@@ -1,4 +1,4 @@
-# Maussoft.Mvc VB example
+# Maussoft.Mvc VB.net example
 
 An example application in VB.net for Maussoft.Mvc (Simple C# web framework for .NET 5).
 
