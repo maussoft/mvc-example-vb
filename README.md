@@ -1,6 +1,6 @@
 # Maussoft.Mvc VB example
 
-An example application in VB for Maussoft.Mvc (Simple C# web framework for .NET 5).
+An example application in VB.net for Maussoft.Mvc (Simple C# web framework for .NET 5).
 
 ### Build single executable
 
