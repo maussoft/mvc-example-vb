@@ -14,7 +14,7 @@
   </Target>
 
   <ItemGroup>
-    <PackageReference Include="Maussoft.Mvc" Version="0.9.1" />
+    <PackageReference Include="Maussoft.Mvc" Version="0.9.2" />
   </ItemGroup>
 
   <ItemGroup>
