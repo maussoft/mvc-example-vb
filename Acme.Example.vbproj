@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <RootNamespace>Acme.Example</RootNamespace>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <UsingTask TaskName="GenerateViews" AssemblyFile="tools\Maussoft.Mvc.ViewGen.dll" />
