@@ -3,4 +3,5 @@ bin
 *.suo
 *.cache
 *.userprefs
-.vscode
+.vscode/
+.vs/
