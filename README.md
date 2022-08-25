@@ -1,6 +1,6 @@
 # Maussoft.Mvc VB.net example
 
-An example application in VB.net for Maussoft.Mvc (Simple C# web framework for .NET 5).
+High speed web framework built in VB.net that runs on .NET 6
 
 ### Build single executable
 
@@ -13,7 +13,7 @@ You can run the following in the project directory:
         /p:DebugType=None \
         /p:DebugSymbols=false
     
-You end up with two files in `bin/Release/net5.0/linux-x64/publish`:
+You end up with two files in `bin/Release/net6.0/linux-x64/publish`:
 
 - appsettings.json
 - Acme.Example
