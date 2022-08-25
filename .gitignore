@@ -3,5 +3,9 @@ bin
 *.suo
 *.cache
 *.userprefs
+<<<<<<< HEAD
 .vscode/
 .vs/
+=======
+.vscode
+>>>>>>> da2839d92d6d08024e7c3657b0b0a939d349df1c
