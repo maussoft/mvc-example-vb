@@ -1,6 +1,6 @@
-# Maussoft.Mvc VB example
+# Maussoft.Mvc VB.net example
 
-High speed web framework built in VB that runs on .NET 6
+An example application in VB.net for Maussoft.Mvc (Simple C# web framework for .NET 6).
 
 ### Build single executable
 

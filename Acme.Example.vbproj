@@ -6,14 +6,15 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
-  <UsingTask TaskName="GenerateViews" AssemblyFile="tools\Maussoft.Mvc.ViewGen.dll" />
+  <UsingTask Condition="'$(MSBuildRuntimeType)' != 'Core'" TaskName="GenerateViews" AssemblyFile="tools\win\Maussoft.Mvc.ViewGen.dll" />
+  <UsingTask Condition="'$(MSBuildRuntimeType)' == 'Core'" TaskName="GenerateViews" AssemblyFile="tools\Maussoft.Mvc.ViewGen.dll" />
 
   <Target Name="BeforeBeforeBuild" BeforeTargets="BeforeBuild">
     <GenerateViews />
   </Target>
 
   <ItemGroup>
-    <PackageReference Include="Maussoft.Mvc" Version="0.9.0" />
+    <PackageReference Include="Maussoft.Mvc" Version="0.9.1" />
   </ItemGroup>
 
   <ItemGroup>
