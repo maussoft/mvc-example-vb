@@ -7,7 +7,7 @@ Namespace Controllers
 	Public Class Todo
 		
         Public Sub Add(ByVal context As WebContext(Of Session))
-            context.Data.Title = "Todo app"
+            context.Data.Title = "Add Todo"
             If context.Method = "POST" Then
                 context.Data.Values = New ViewData(context.Post)
                 context.Data.Errors = New ViewData()
@@ -25,7 +25,7 @@ Namespace Controllers
         End Sub
 
         Public Sub Index(ByVal context As WebContext(Of Session))
-            context.Data.Title = "Todo app"
+            context.Data.Title = "List Todos"
         End Sub
 
 	End Class
