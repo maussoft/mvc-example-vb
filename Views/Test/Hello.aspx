@@ -1,1 +1,0 @@
-<%@ Page %><%= Context.Data.Html %>

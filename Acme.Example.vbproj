@@ -14,15 +14,10 @@
   </Target>
 
   <ItemGroup>
-    <PackageReference Include="Maussoft.Mvc" Version="0.9.2" />
+    <!-- For local development -->
+    <ProjectReference Include="..\mvc\Maussoft.Mvc.csproj" />
+    <!--<PackageReference Include="Maussoft.Mvc" Version="0.9.2" />-->
   </ItemGroup>
-
-  <!-- For local development -->
-  <!--
-    <ItemGroup>
-      <ProjectReference Include="..\mvc\Maussoft.Mvc.csproj" />
-    </ItemGroup>
-  -->
 
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildProjectDirectory)\Content\**">

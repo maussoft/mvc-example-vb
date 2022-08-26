@@ -4,16 +4,20 @@
 
 
 Namespace Views.Layouts
-	Public Class [Default](Of TSession As New)
-		Inherits Global.Maussoft.Mvc.View(Of TSession)
+	Public Class [Default]
+		Inherits Global.Maussoft.Mvc.View(Of Acme.Example.Session)
 		
 		Public Overrides Sub Header()
 			WriteLine()
-			WriteLine("<!DOCTYPE html>")
-			WriteLine("<html>")
+			WriteLine("  <!DOCTYPE html>")
+			WriteLine("  <html>")
+			WriteLine()
 			WriteLine("  <head>")
-			WriteLine("    <title>Hello {0}</title>",  Context.Data.Name )
+			WriteLine("    <title>")
+			WriteLine("      {0}",  Context.Data.Title )
+			WriteLine("    </title>")
 			WriteLine("  </head>")
+			WriteLine()
 			WriteLine("  <body>")
 			Write("    ")
 		End Sub
@@ -21,7 +25,8 @@ Namespace Views.Layouts
 		Public Overrides Sub Footer()
 			WriteLine()
 			WriteLine("  </body>")
-			Write("</html>")
+			WriteLine()
+			Write("  </html>")
 		End Sub
 	End Class
 End Namespace
