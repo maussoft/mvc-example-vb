@@ -1,12 +1,9 @@
-﻿Imports System.Net
-Imports System.Text
-Imports System.Collections.Generic
-Imports Maussoft.Mvc
+﻿Imports Maussoft.Mvc
 
 Namespace Controllers
 	Public Class Todo
 		
-        Public Sub Add(ByVal context As WebContext(Of Session))
+        Public Sub Add(context As WebContext(Of Session))
             context.Data.Title = "Add Todo"
             If context.Method = "POST" Then
                 context.Data.Values = New ViewData(context.Post)
@@ -24,7 +21,7 @@ Namespace Controllers
             End If
         End Sub
 
-        Public Sub Index(ByVal context As WebContext(Of Session))
+        Public Sub Index(context As WebContext(Of Session))
             context.Data.Title = "List Todos"
         End Sub
 
