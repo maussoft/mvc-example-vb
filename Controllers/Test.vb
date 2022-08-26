@@ -27,8 +27,6 @@ Namespace Controllers
 
 			context.Data.Name = "World"
 			context.Data.Html = rStr
-
-			context.SendString(rstr)
 		End Sub
 
 		Public Sub Index(context As WebContext(Of Session))
