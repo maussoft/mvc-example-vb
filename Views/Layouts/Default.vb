@@ -13,13 +13,13 @@ Namespace Views.Layouts
 			WriteLine("<html>")
 			WriteLine()
 			WriteLine("<head>")
-			WriteLine("	<title>")
-			WriteLine("		{0}",  Context.Data.Title )
-			WriteLine("	</title>")
+			WriteLine("    <title>")
+			WriteLine("        {0}",  Context.Data.Title )
+			WriteLine("    </title>")
 			WriteLine("</head>")
 			WriteLine()
 			WriteLine("<body>")
-			Write("	")
+			Write("    ")
 		End Sub
 
 		Public Overrides Sub Footer()
