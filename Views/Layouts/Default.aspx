@@ -1,15 +1,15 @@
 ﻿<%@ Master %>
-  <!DOCTYPE html>
-  <html>
+<!DOCTYPE html>
+<html>
 
-  <head>
-    <title>
-      <%= Context.Data.Title %>
-    </title>
-  </head>
+<head>
+	<title>
+		<%= Context.Data.Title %>
+	</title>
+</head>
 
-  <body>
-    <% RenderViewContent() %>
-  </body>
+<body>
+	<% RenderViewContent() %>
+</body>
 
-  </html>
+</html>
