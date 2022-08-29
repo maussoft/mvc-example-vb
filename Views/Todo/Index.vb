@@ -9,14 +9,14 @@ Namespace Views.Todo
 		
 		Public Overrides Sub Content()
 			WriteLine()
-			WriteLine("    <ul>")
-			Write("        ") : For Each item in Context.Session.Items  : WriteLine()
-			WriteLine("            <li>")
-			WriteLine("                {0}",  item )
-			WriteLine("            </li>")
-			Write("            ") : Next  : WriteLine()
-			WriteLine("    </ul>")
-			Write("    <a href=""/Todo/Add"">Add</a>")
+			WriteLine("<ul>")
+			Write("    ") : For Each item in Context.Session.Items  : WriteLine()
+			WriteLine("    <li>")
+			WriteLine("        {0}",  item )
+			WriteLine("    </li>")
+			Write("    ") : Next  : WriteLine()
+			WriteLine("</ul>")
+			Write("<a href=""/Todo/Add"">Add</a>")
 		End Sub
 	End Class
 End Namespace

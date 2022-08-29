@@ -9,24 +9,24 @@ Namespace Views.Layouts
 		
 		Public Overrides Sub Header()
 			WriteLine()
-			WriteLine("  <!DOCTYPE html>")
-			WriteLine("  <html>")
+			WriteLine("<!DOCTYPE html>")
+			WriteLine("<html>")
 			WriteLine()
-			WriteLine("  <head>")
-			WriteLine("    <title>")
-			WriteLine("      {0}",  Context.Data.Title )
-			WriteLine("    </title>")
-			WriteLine("  </head>")
+			WriteLine("<head>")
+			WriteLine("	<title>")
+			WriteLine("		{0}",  Context.Data.Title )
+			WriteLine("	</title>")
+			WriteLine("</head>")
 			WriteLine()
-			WriteLine("  <body>")
-			Write("    ")
+			WriteLine("<body>")
+			Write("	")
 		End Sub
 
 		Public Overrides Sub Footer()
 			WriteLine()
-			WriteLine("  </body>")
+			WriteLine("</body>")
 			WriteLine()
-			Write("  </html>")
+			Write("</html>")
 		End Sub
 	End Class
 End Namespace
