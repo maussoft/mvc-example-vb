@@ -3,13 +3,13 @@
 <html>
 
 <head>
-	<title>
-		<%= Context.Data.Title %>
-	</title>
+    <title>
+        <%= Context.Data.Title %>
+    </title>
 </head>
 
 <body>
-	<% RenderViewContent() %>
+    <% RenderViewContent() %>
 </body>
 
 </html>
